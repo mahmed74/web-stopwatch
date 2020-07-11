@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('images/bg-img.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+@mediaquery(max-width: 767px) {
+    .main {
+        Width: 250px;
+        height: 30vh;
+        padding: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        /* margin-top: 100px; */
+        Overflox: hidden;
+    }
+    body {
+        background-image: url('images/bg-img-mobile');
+    }
+}
+
+.main {
+    margin: 200px auto;
+    border: 1px solid black;
+    padding: 50px;
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px gray;
+    background: linear-gradient(#373B44 70%, #4286f4 30%);
+}
+
+.logo {
+    font-family: 'Krona One', sans-serif;
+    color: white;
+    background: linear-gradient(#373B44 70%);
+    text-align: left;
+    padding-top: 0;
+}
+
+.logo p {
+    font-size: 14px;
+}
+
+.display {
+    background-color: gray;
+    margin: 10px 0;
+}
+
+h1 {
+    display: inline-block;
+    /* font-size: 10px; */
+    width: 80px;
+    /* margin: 2px; */
+    /* border: 1px solid black; */
+    /* padding: 3px; */
+}
+
+.btns button {
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+span {
+    font-size: 30px;
+}
+
+.btns button:hover {
+    background-color: #607D8B;
+}
+
+.btns button:active {
+    background-color: #BDBDBD;
+}
